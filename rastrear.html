@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rastreie seu pedido em tempo real. Acompanhe sua entrega com a Jortek.">
+    <meta name="keywords" content="rastreamento, rastrear pedido, acompanhar entrega, tracking">
+    <title>Rastrear Pedido - Jortek Transportes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Jortek Transportes">
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="cidades.html">Cidades Atendidas</a></li>
+                    <li><a href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li class="nav-rastrear"><a href="rastrear.html" class="btn-rastrear active">Rastrear</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Rastreamento de Pedidos</h1>
+            <p>Acompanhe sua entrega em tempo real</p>
+        </div>
+    </section>
+
+    <section class="tracking-section">
+        <div class="container">
+            <div class="tracking-wrapper">
+                <div class="tracking-form-container">
+                    <h2>Rastreie seu Pedido</h2>
+                    <p>Digite o código de rastreamento para acompanhar sua entrega</p>
+                    
+                    <form class="tracking-form" id="trackingForm">
+                        <div class="form-group">
+                            <label for="codigo">Código de Rastreamento</label>
+                            <input type="text" id="codigo" name="codigo" placeholder="Ex: JTK123456789" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Rastrear Pedido</button>
+                    </form>
+                </div>
+
+                <div class="tracking-result" id="trackingResult" style="display: none;">
+                    <h3>Status da Entrega</h3>
+                    <div class="tracking-timeline">
+                        <div class="timeline-item completed">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Pedido Recebido</h4>
+                                <p>Seu pedido foi recebido em nosso centro de distribuição</p>
+                                <span class="timeline-date">--/--/---- --:--</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item completed">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Em Trânsito</h4>
+                                <p>Seu pedido está a caminho</p>
+                                <span class="timeline-date">--/--/---- --:--</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item active">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Saiu para Entrega</h4>
+                                <p>Seu pedido saiu para entrega</p>
+                                <span class="timeline-date">--/--/---- --:--</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Entregue</h4>
+                                <p>Pedido entregue com sucesso</p>
+                                <span class="timeline-date">Aguardando...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tracking-info">
+                    <h3>Como Rastrear?</h3>
+                    <ol>
+                        <li>Localize o código de rastreamento em seu comprovante ou e-mail de confirmação</li>
+                        <li>Digite o código no campo acima</li>
+                        <li>Clique em "Rastrear Pedido"</li>
+                        <li>Acompanhe o status da sua entrega em tempo real</li>
+                    </ol>
+
+                    <div class="tracking-help">
+                        <h4>Precisa de Ajuda?</h4>
+                        <p>Se você não conseguir localizar seu código de rastreamento ou tiver dúvidas sobre sua entrega, entre em contato conosco.</p>
+                        <a href="contato.html" class="btn btn-secondary">Fale Conosco</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="logo.png" alt="Jortek" class="footer-logo">
+                    <p>Especialistas em transporte fracionado e dedicado. Movimentando o Brasil com eficiência e segurança.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="cidades.html">Cidades Atendidas</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html#armazenagem">Armazenagem</a></li>
+                        <li><a href="servicos.html#rodoviario">Transporte Rodoviário</a></li>
+                        <li><a href="servicos.html#distribuicao">Distribuição</a></li>
+                        <li><a href="rastrear.html">Rastreamento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="contato.html">Entre em Contato</a></li>
+                        <li><a href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
+                        <li><a href="rastrear.html">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jortek Transportes. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

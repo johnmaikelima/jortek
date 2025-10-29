@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jortek.com.br/sitemap.xml
+
+# Disallow admin areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all CSS and JS files
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 10

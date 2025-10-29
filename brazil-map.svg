@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" id="brazil-svg-map">
+  <style>
+    .state {
+      stroke: #ffffff;
+      stroke-width: 1.5;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .state.active {
+      fill: #003580;
+    }
+    .state.active:hover {
+      fill: #0056D2;
+      filter: drop-shadow(0 4px 8px rgba(0, 53, 128, 0.3));
+    }
+    .state.partial {
+      fill: #0056D2;
+    }
+    .state.partial:hover {
+      fill: #0070FF;
+      filter: drop-shadow(0 4px 8px rgba(0, 86, 210, 0.3));
+    }
+    .state.inactive {
+      fill: #E0E0E0;
+    }
+    .state.inactive:hover {
+      fill: #D0D0D0;
+    }
+  </style>
+  
+  <!-- Acre -->
+  <path id="AC" class="state active" d="M 45,285 L 55,275 L 65,270 L 75,268 L 85,270 L 92,275 L 95,285 L 95,295 L 92,305 L 85,310 L 75,312 L 65,310 L 55,305 L 48,295 Z" data-name="Acre"/>
+  
+  <!-- Rondônia -->
+  <path id="RO" class="state active" d="M 95,270 L 105,265 L 120,263 L 135,265 L 145,270 L 152,280 L 155,295 L 155,310 L 152,325 L 145,335 L 135,340 L 120,342 L 105,340 L 95,335 L 92,325 L 92,310 L 95,295 L 95,280 Z" data-name="Rondônia"/>
+  
+  <!-- Amazonas -->
+  <path id="AM" class="state inactive" d="M 50,100 L 80,90 L 110,85 L 140,85 L 170,90 L 195,100 L 210,115 L 220,135 L 225,160 L 225,185 L 220,210 L 210,230 L 195,245 L 170,255 L 140,260 L 110,260 L 80,255 L 60,245 L 45,230 L 35,210 L 30,185 L 30,160 L 35,135 L 45,115 Z" data-name="Amazonas"/>
+  
+  <!-- Roraima -->
+  <path id="RR" class="state inactive" d="M 140,30 L 155,25 L 170,23 L 185,25 L 195,30 L 202,40 L 205,55 L 205,70 L 200,82 L 190,90 L 175,95 L 160,95 L 145,90 L 135,82 L 130,70 L 130,55 L 133,40 Z" data-name="Roraima"/>
+  
+  <!-- Pará -->
+  <path id="PA" class="state inactive" d="M 230,100 L 260,95 L 290,93 L 320,95 L 345,100 L 365,110 L 380,125 L 390,145 L 395,170 L 395,195 L 390,220 L 380,240 L 365,255 L 345,265 L 320,270 L 290,272 L 260,270 L 235,260 L 225,245 L 220,225 L 220,200 L 225,175 L 230,150 L 235,125 Z" data-name="Pará"/>
+  
+  <!-- Amapá -->
+  <path id="AP" class="state inactive" d="M 350,35 L 365,30 L 380,28 L 395,30 L 405,38 L 410,50 L 410,65 L 405,78 L 395,88 L 380,93 L 365,93 L 350,88 L 340,78 L 335,65 L 335,50 L 340,38 Z" data-name="Amapá"/>
+  
+  <!-- Mato Grosso -->
+  <path id="MT" class="state partial" d="M 160,280 L 190,275 L 220,273 L 250,275 L 275,282 L 295,295 L 310,315 L 320,340 L 325,370 L 325,400 L 320,425 L 310,445 L 295,460 L 275,470 L 250,475 L 220,477 L 190,475 L 165,468 L 155,455 L 150,435 L 148,410 L 150,385 L 155,360 L 160,335 L 165,310 L 160,295 Z" data-name="Mato Grosso"/>
+  
+  <!-- Tocantins -->
+  <path id="TO" class="state inactive" d="M 330,280 L 355,278 L 380,280 L 400,288 L 415,302 L 425,322 L 430,347 L 430,372 L 425,397 L 415,417 L 400,432 L 380,442 L 355,447 L 330,447 L 315,440 L 310,425 L 308,405 L 310,385 L 315,365 L 320,345 L 325,325 L 328,305 L 330,290 Z" data-name="Tocantins"/>
+  
+  <!-- Maranhão -->
+  <path id="MA" class="state inactive" d="M 400,200 L 425,198 L 450,200 L 470,208 L 485,222 L 495,242 L 500,267 L 500,292 L 495,317 L 485,337 L 470,352 L 450,362 L 425,367 L 400,367 L 385,360 L 380,345 L 378,325 L 380,305 L 385,285 L 390,265 L 395,245 L 398,225 Z" data-name="Maranhão"/>
+  
+  <!-- Piauí -->
+  <path id="PI" class="state inactive" d="M 435,370 L 455,368 L 475,370 L 490,378 L 500,392 L 505,412 L 505,432 L 500,452 L 490,467 L 475,477 L 455,482 L 435,482 L 420,475 L 415,460 L 413,440 L 415,420 L 420,400 L 425,385 Z" data-name="Piauí"/>
+  
+  <!-- Ceará -->
+  <path id="CE" class="state inactive" d="M 470,310 L 495,308 L 520,312 L 540,322 L 553,338 L 560,358 L 560,378 L 553,398 L 540,413 L 520,423 L 495,427 L 470,425 L 455,418 L 450,403 L 448,383 L 450,363 L 455,343 L 460,328 Z" data-name="Ceará"/>
+  
+  <!-- Rio Grande do Norte -->
+  <path id="RN" class="state inactive" d="M 530,380 L 550,378 L 568,382 L 580,392 L 585,407 L 583,422 L 575,433 L 560,440 L 543,442 L 528,438 L 520,428 L 518,413 L 520,398 L 525,388 Z" data-name="Rio Grande do Norte"/>
+  
+  <!-- Paraíba -->
+  <path id="PB" class="state inactive" d="M 540,425 L 558,423 L 573,427 L 583,437 L 588,452 L 586,467 L 578,478 L 563,485 L 546,487 L 531,483 L 523,473 L 521,458 L 523,443 L 528,433 Z" data-name="Paraíba"/>
+  
+  <!-- Pernambuco -->
+  <path id="PE" class="state inactive" d="M 510,450 L 535,448 L 560,452 L 580,462 L 593,478 L 600,498 L 600,518 L 593,538 L 580,553 L 560,563 L 535,567 L 510,565 L 495,558 L 490,543 L 488,523 L 490,503 L 495,483 L 500,468 Z" data-name="Pernambuco"/>
+  
+  <!-- Alagoas -->
+  <path id="AL" class="state inactive" d="M 540,540 L 555,538 L 568,542 L 577,552 L 580,567 L 578,582 L 570,593 L 555,600 L 538,602 L 523,598 L 515,588 L 513,573 L 515,558 L 520,548 Z" data-name="Alagoas"/>
+  
+  <!-- Sergipe -->
+  <path id="SE" class="state inactive" d="M 510,570 L 525,568 L 538,572 L 547,582 L 550,597 L 548,612 L 540,623 L 525,630 L 508,632 L 493,628 L 485,618 L 483,603 L 485,588 L 490,578 Z" data-name="Sergipe"/>
+  
+  <!-- Bahia -->
+  <path id="BA" class="state inactive" d="M 440,450 L 470,448 L 500,452 L 525,462 L 545,478 L 560,500 L 570,527 L 575,557 L 575,587 L 570,617 L 560,642 L 545,662 L 525,677 L 500,687 L 470,692 L 440,690 L 415,683 L 395,670 L 380,652 L 370,627 L 365,597 L 365,567 L 370,537 L 380,512 L 395,492 L 415,477 L 430,465 Z" data-name="Bahia"/>
+  
+  <!-- Mato Grosso do Sul -->
+  <path id="MS" class="state partial" d="M 250,480 L 275,478 L 300,482 L 320,492 L 335,508 L 345,530 L 350,555 L 350,580 L 345,605 L 335,625 L 320,640 L 300,650 L 275,655 L 250,653 L 230,646 L 220,631 L 215,611 L 215,586 L 220,561 L 230,541 L 240,521 L 245,501 Z" data-name="Mato Grosso do Sul"/>
+  
+  <!-- Goiás -->
+  <path id="GO" class="state inactive" d="M 330,450 L 355,448 L 380,452 L 400,462 L 415,478 L 425,500 L 430,525 L 430,550 L 425,575 L 415,595 L 400,610 L 380,620 L 355,625 L 330,623 L 315,616 L 310,601 L 308,581 L 310,561 L 315,541 L 320,521 L 325,501 L 328,481 L 330,465 Z" data-name="Goiás"/>
+  
+  <!-- Distrito Federal -->
+  <path id="DF" class="state inactive" d="M 365,540 L 372,538 L 379,540 L 383,547 L 383,554 L 379,561 L 372,563 L 365,561 L 361,554 L 361,547 Z" data-name="Distrito Federal"/>
+  
+  <!-- Minas Gerais -->
+  <path id="MG" class="state inactive" d="M 380,550 L 410,548 L 440,552 L 465,562 L 485,578 L 500,600 L 510,627 L 515,657 L 515,687 L 510,717 L 500,742 L 485,762 L 465,777 L 440,787 L 410,792 L 380,790 L 355,783 L 335,770 L 320,752 L 310,727 L 305,697 L 305,667 L 310,637 L 320,612 L 335,592 L 355,577 L 370,565 Z" data-name="Minas Gerais"/>
+  
+  <!-- Espírito Santo -->
+  <path id="ES" class="state inactive" d="M 490,690 L 505,688 L 518,692 L 527,702 L 532,717 L 530,732 L 522,743 L 507,750 L 490,752 L 475,748 L 467,738 L 465,723 L 467,708 L 472,698 Z" data-name="Espírito Santo"/>
+  
+  <!-- Rio de Janeiro -->
+  <path id="RJ" class="state inactive" d="M 440,760 L 460,758 L 480,762 L 495,772 L 505,787 L 508,807 L 505,827 L 495,842 L 480,852 L 460,857 L 440,855 L 425,848 L 418,833 L 416,813 L 418,793 L 425,778 Z" data-name="Rio de Janeiro"/>
+  
+  <!-- São Paulo -->
+  <path id="SP" class="state active" d="M 330,660 L 360,658 L 390,662 L 415,672 L 435,688 L 450,710 L 460,737 L 465,767 L 465,797 L 460,822 L 450,842 L 435,857 L 415,867 L 390,872 L 360,870 L 335,863 L 315,850 L 300,832 L 290,807 L 285,777 L 285,747 L 290,722 L 300,702 L 315,687 L 325,675 Z" data-name="São Paulo"/>
+  
+  <!-- Paraná -->
+  <path id="PR" class="state inactive" d="M 290,830 L 315,828 L 340,832 L 360,842 L 375,858 L 385,880 L 390,905 L 390,930 L 385,952 L 375,970 L 360,983 L 340,993 L 315,998 L 290,996 L 270,989 L 258,975 L 253,957 L 253,932 L 258,907 L 270,887 L 280,867 L 285,850 Z" data-name="Paraná"/>
+  
+  <!-- Santa Catarina -->
+  <path id="SC" class="state inactive" d="M 315,1000 L 335,998 L 355,1002 L 370,1012 L 380,1027 L 385,1047 L 383,1067 L 375,1082 L 360,1092 L 340,1097 L 320,1095 L 305,1088 L 295,1073 L 290,1053 L 290,1033 L 295,1018 L 305,1008 Z" data-name="Santa Catarina"/>
+  
+  <!-- Rio Grande do Sul -->
+  <path id="RS" class="state inactive" d="M 290,1100 L 310,1098 L 330,1102 L 345,1112 L 355,1127 L 360,1147 L 360,1167 L 355,1187 L 345,1202 L 330,1212 L 310,1217 L 290,1215 L 275,1208 L 265,1193 L 260,1173 L 260,1153 L 265,1133 L 275,1118 Z" data-name="Rio Grande do Sul"/>
+</svg>

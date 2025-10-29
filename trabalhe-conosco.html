@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabalhe na Jortek. Faça parte da nossa equipe de especialistas em transporte e logística.">
+    <meta name="keywords" content="trabalhe conosco, vagas, emprego, carreira, transportadora, logística">
+    <title>Trabalhe Conosco - Jortek Transportes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Jortek Transportes">
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="cidades.html">Cidades Atendidas</a></li>
+                    <li><a href="trabalhe-conosco.html" class="active">Trabalhe Conosco</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li class="nav-rastrear"><a href="rastrear.html" class="btn-rastrear">Rastrear</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Trabalhe Conosco</h1>
+            <p>Faça parte da equipe Jortek e construa sua carreira conosco</p>
+        </div>
+    </section>
+
+    <section class="careers-section">
+        <div class="container">
+            <div class="careers-intro">
+                <h2>Venha fazer parte do nosso time</h2>
+                <p>Na Jortek, valorizamos profissionais comprometidos, dedicados e apaixonados por logística. Se você busca crescimento profissional em uma empresa sólida e em constante expansão, este é o lugar certo!</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Ambiente Colaborativo</h3>
+                    <p>Trabalhe em um ambiente que valoriza o trabalho em equipe</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Crescimento Profissional</h3>
+                    <p>Oportunidades de desenvolvimento e crescimento na carreira</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                    </div>
+                    <h3>Benefícios</h3>
+                    <p>Pacote completo de benefícios para você e sua família</p>
+                </div>
+            </div>
+
+            <div class="careers-form-section">
+                <h2>Envie seu currículo</h2>
+                <form class="careers-form" id="careersForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefone">Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cargo">Cargo de Interesse *</label>
+                            <select id="cargo" name="cargo" required>
+                                <option value="">Selecione...</option>
+                                <option value="motorista">Motorista</option>
+                                <option value="ajudante">Ajudante</option>
+                                <option value="administrativo">Administrativo</option>
+                                <option value="operacional">Operacional</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos um pouco sobre você e sua experiência..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="curriculo">Anexar Currículo (PDF)</label>
+                        <input type="file" id="curriculo" name="curriculo" accept=".pdf">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Candidatura</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="logo.png" alt="Jortek" class="footer-logo">
+                    <p>Especialistas em transporte fracionado e dedicado. Movimentando o Brasil com eficiência e segurança.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="cidades.html">Cidades Atendidas</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html#armazenagem">Armazenagem</a></li>
+                        <li><a href="servicos.html#rodoviario">Transporte Rodoviário</a></li>
+                        <li><a href="servicos.html#distribuicao">Distribuição</a></li>
+                        <li><a href="rastrear.html">Rastreamento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="contato.html">Entre em Contato</a></li>
+                        <li><a href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
+                        <li><a href="rastrear.html">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jortek Transportes. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

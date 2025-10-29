@@ -1,0 +1,161 @@
+═══════════════════════════════════════════════════════════════
+    JORTEK TRANSPORTES - GUIA RÁPIDO DE USO
+═══════════════════════════════════════════════════════════════
+
+📋 CONTEÚDO DO SITE
+═══════════════════════════════════════════════════════════════
+
+✅ PÁGINAS CRIADAS:
+   • Home (index.html) - Página inicial com hero e serviços
+   • Serviços (servicos.html) - Detalhes dos serviços oferecidos
+   • Cidades Atendidas (cidades.html) - Cobertura de SP a RO
+   • Trabalhe Conosco (trabalhe-conosco.html) - Formulário de vagas
+   • Sobre (sobre.html) - História e valores da empresa
+   • Contato (contato.html) - Formulário e informações de contato
+   • Rastrear (rastrear.html) - Sistema de rastreamento
+
+🎨 DESIGN E CORES
+═══════════════════════════════════════════════════════════════
+
+Paleta de Cores Utilizada:
+   • Azul Principal: #003580
+   • Cinza Claro: #F5F7F9
+   • Azul Accent: #0056D2
+   • Gradiente: #003580 → #0056D2
+
+Características:
+   ✓ Design moderno e profissional
+   ✓ Totalmente responsivo (mobile, tablet, desktop)
+   ✓ Animações suaves e elegantes
+   ✓ Efeitos visuais modernos
+   ✓ Otimizado para SEO
+
+🚀 COMO VISUALIZAR O SITE
+═══════════════════════════════════════════════════════════════
+
+OPÇÃO 1 - Abrir Diretamente:
+   1. Navegue até a pasta do projeto
+   2. Clique duas vezes em "index.html"
+   3. O site abrirá no seu navegador padrão
+
+OPÇÃO 2 - Servidor Local (Recomendado):
+   1. Abra o terminal/prompt na pasta do projeto
+   2. Execute: python -m http.server 8000
+   3. Abra: http://localhost:8000
+
+🖼️ ADICIONAR LOGOS DE PARCEIROS
+═══════════════════════════════════════════════════════════════
+
+1. Coloque as imagens na pasta "parceiros/"
+2. Nomeie como: partner1.png, partner2.png, etc.
+3. Formato recomendado: PNG (300x150 pixels)
+4. Os logos aparecerão automaticamente no carrossel
+
+📝 PERSONALIZAR CONTEÚDO
+═══════════════════════════════════════════════════════════════
+
+TEXTOS:
+   • Edite os arquivos .html com qualquer editor de texto
+   • Procure pelo texto que deseja alterar
+   • Salve e recarregue a página
+
+CORES:
+   • Abra: css/style.css
+   • Procure por ":root" no início do arquivo
+   • Altere as variáveis de cor
+   • Exemplo: --primary-color: #003580;
+
+IMAGENS:
+   • Substitua os arquivos existentes mantendo o mesmo nome
+   • Ou atualize o caminho no HTML
+
+INFORMAÇÕES DE CONTATO:
+   • Edite: contato.html
+   • Atualize telefone, email e endereço
+   • Modifique horário de atendimento
+
+⚙️ FUNCIONALIDADES INCLUÍDAS
+═══════════════════════════════════════════════════════════════
+
+✓ Menu de navegação responsivo
+✓ Hero section com imagem de fundo
+✓ Seção "Sobre" com estatísticas
+✓ Cards de serviços com ícones
+✓ Carrossel automático de parceiros
+✓ Formulários de contato e candidatura
+✓ Sistema de rastreamento visual
+✓ Botão "Voltar ao topo"
+✓ Animações ao rolar a página
+✓ Scroll suave entre seções
+
+📱 RESPONSIVIDADE
+═══════════════════════════════════════════════════════════════
+
+O site se adapta automaticamente a:
+   • Desktop (acima de 992px)
+   • Tablet (768px - 992px)
+   • Mobile (abaixo de 768px)
+
+🔍 SEO OTIMIZADO
+═══════════════════════════════════════════════════════════════
+
+Cada página inclui:
+   ✓ Meta description única
+   ✓ Meta keywords relevantes
+   ✓ Tags Open Graph (redes sociais)
+   ✓ Títulos otimizados
+   ✓ Estrutura HTML semântica
+
+📂 ESTRUTURA DE ARQUIVOS
+═══════════════════════════════════════════════════════════════
+
+Jortek/
+├── index.html              (Página inicial)
+├── servicos.html           (Serviços)
+├── cidades.html            (Cidades atendidas)
+├── trabalhe-conosco.html   (Vagas)
+├── sobre.html              (Sobre a empresa)
+├── contato.html            (Contato)
+├── rastrear.html           (Rastreamento)
+├── css/
+│   ├── style.css          (Estilos principais)
+│   └── pages.css          (Estilos das páginas)
+├── js/
+│   └── main.js            (JavaScript)
+├── parceiros/             (Logos dos parceiros)
+├── logo.png               (Logo da empresa)
+├── backgroundhero.jpg     (Imagem do hero)
+└── porto-velho.jpg        (Imagem da seção sobre)
+
+🎯 PRÓXIMOS PASSOS
+═══════════════════════════════════════════════════════════════
+
+Para colocar online:
+   1. Contratar hospedagem web
+   2. Registrar domínio (ex: jortek.com.br)
+   3. Fazer upload dos arquivos via FTP
+   4. Configurar SSL (HTTPS)
+   5. Integrar formulários com backend
+   6. Conectar sistema de rastreamento real
+
+💡 DICAS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+• Mantenha backups regulares dos arquivos
+• Teste em diferentes navegadores
+• Otimize imagens antes de adicionar
+• Atualize informações regularmente
+• Monitore performance com Google PageSpeed
+
+📞 SUPORTE
+═══════════════════════════════════════════════════════════════
+
+Para dúvidas ou problemas:
+   • Consulte o README.md para mais detalhes
+   • Verifique os comentários no código
+   • Teste em diferentes navegadores
+
+═══════════════════════════════════════════════════════════════
+        Site desenvolvido com tecnologias modernas
+              HTML5 | CSS3 | JavaScript
+═══════════════════════════════════════════════════════════════
